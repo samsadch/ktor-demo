@@ -1,0 +1,7 @@
+POST http://localhost:8080/snippets
+Content-Type: application/json
+Authorization: Bearer {{eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYW1lIjoic2Ftc2FkIn0.204UzxkCrZoER7Fd2P-Y_Qpq69elxD1gmpyYpbIkjH0}}
+
+{"Snippet" : {"text": "Hello World"}}
+
+
