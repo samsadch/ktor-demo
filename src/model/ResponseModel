@@ -1,0 +1,6 @@
+package model
+
+data class ResponseModel(
+    val Code: Int,
+    val Message: String
+)
